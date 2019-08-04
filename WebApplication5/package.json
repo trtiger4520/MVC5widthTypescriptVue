@@ -1,0 +1,19 @@
+{
+  "name": "webapplication5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/requirejs": "^2.1.31",
+    "@types/vue": "^2.0.0",
+    "requirejs": "^2.3.6",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.2.1"
+  }
+}

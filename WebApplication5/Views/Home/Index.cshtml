@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" id="App">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p v-if="show">{{ aa }}</p>
+    <box-button />
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+@section Scripts {
+    <script>
+
+        requirejs.config({
+            baseUrl: "@Url.Content("~/Scripts/Components/Home/")",
+            paths: {
+                "vue": "@Url.Content("~/node_modules/vue/dist/vue")",
+                "vue-class-component": "@Url.Content("~/node_modules/vue-class-component/dist/vue-class-component")",
+                "vue-property-decorator": "@Url.Content("~/node_modules/vue-property-decorator/lib/vue-property-decorator.umd")"
+            }
+        });
+
+        require(["Index"]);
+
+    </script>
+}

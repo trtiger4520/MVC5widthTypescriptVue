@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "traceResolution": false,
+    "noImplicitAny": false,
+    "esModuleInterop":  true,
+    "declaration": false,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "module": "umd",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}
