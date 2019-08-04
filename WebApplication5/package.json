@@ -11,9 +11,11 @@
   "dependencies": {
     "@types/requirejs": "^2.1.31",
     "@types/vue": "^2.0.0",
+    "bootstrap-vue": "^2.0.0-rc.27",
     "requirejs": "^2.3.6",
     "vue": "^2.6.10",
     "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.2.1"
-  }
+  },
+  "-vs-binding": { "ProjectOpened": [ "install" ] }
 }
